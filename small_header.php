@@ -50,18 +50,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <?php 
-
-wp_nav_menu( array(
-  'theme_location'  => 'primary',
-  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-  'container'       => 'div',
-  'container_class' => 'collapse navbar-collapse',
-  'container_id'    => 'bs-example-navbar-collapse-1',
-  'menu_class'      => 'navbar-nav ml-auto',
-  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-  'walker'          => new WP_Bootstrap_Navwalker(),
-) );
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+          </ul>
+        </div>
       </nav>
 <div class="smallpage-tag">
       <!--<h1 class="smallpage-title" >Projects</h1>-->
