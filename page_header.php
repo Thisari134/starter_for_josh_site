@@ -67,7 +67,7 @@ wp_nav_menu( array(
 
       </nav>
 <div class="container smallpage-tag">
-<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?></h1>
+<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
 </div>
     </div> <!-- container -->
 <?php wp_head(); ?> <!-- very important that this code is added-->
