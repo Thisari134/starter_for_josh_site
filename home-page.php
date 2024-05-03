@@ -7,6 +7,7 @@
 
 <section class="container-fluid aboutbg text-center">
     <div class="container">
+    <lottie-player id="twelfthLottie" src="http://170.187.231.66/~mesh9/wp-content/themes/starter_for_josh_site/images/rocketman.json" background="transparent" speed="1" style="margin:auto width: 200px; height: 200px" direction="1"></lottie-player>
     <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
     <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
 <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>
