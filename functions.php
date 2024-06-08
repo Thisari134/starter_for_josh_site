@@ -18,6 +18,8 @@ function load_my_scripts() {
   wp_enqueue_script( 'gsap-js-scroll', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js', array(), false, true );
 
   wp_enqueue_script( 'custom_script', get_template_directory_uri() . '/script.js', array(), null, true );
+  wp_enqueue_script( 'custom_script1', get_template_directory_uri() . '/script1.js', array(), null, true );
+  wp_enqueue_script( 'custom_script2', get_template_directory_uri() . '/script2.js', array(), null, true );
 
 
   wp_enqueue_style( 'test', get_stylesheet_directory_uri() . '/responsive.css' );
